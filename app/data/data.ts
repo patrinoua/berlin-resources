@@ -24,6 +24,24 @@ export const artisticArray: Item[] = [
     image: 'kunst_zeit_raum.png',
     dateAdded: '04/08/2025',
   },
+  {
+    name: 'k_a_3_2',
+    link: 'https://www.instagram.com/k_a_3_2',
+    image: 'k_a_3_2.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'ephemeraltomorrow',
+    link: 'https://www.instagram.com/ephemeraltomorrow',
+    image: 'ephemeraltomorrow.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: '',
+    link: 'https://www.instagram.com/',
+    image: '.png',
+    dateAdded: '04/08/2025',
+  },
 ]
 export const artistsArray: Item[] = [
   {
@@ -165,9 +183,9 @@ export const barsArray: Item[] = [
     dateAdded: '04/08/2025',
   },
   {
-    name: '',
-    link: 'https://www.instagram.com/',
-    image: '.png',
+    name: 'madameclaude.berlin',
+    link: 'https://www.instagram.com/madameclaude.berlin',
+    image: 'madameclaude.berlin.png',
     dateAdded: '04/08/2025',
   },
   {
@@ -182,6 +200,7 @@ export const barsArray: Item[] = [
     image: '.png',
     dateAdded: '04/08/2025',
   },
+  
 ]
 export const cafesArray: Item[] = [
   {
@@ -241,9 +260,9 @@ export const clubsArray: Item[] = [
     dateAdded: '04/08/2025',
   },
   {
-    name: '',
-    link: 'https://www.instagram.com/',
-    image: '.png',
+    name: 'tresorberlin',
+    link: 'https://www.instagram.com/tresorberlin',
+    image: 'tresorberlin.png',
     dateAdded: '04/08/2025',
   },
   {
@@ -355,9 +374,9 @@ export const eventsArray: Item[] = [
     dateAdded: '04/08/2025',
   },
   {
-    name: '',
-    link: 'https://www.instagram.com/',
-    image: '.png',
+    name: 'urban_spree_music',
+    link: 'https://www.instagram.com/urban_spree_music',
+    image: 'urban_spree_music.png',
     dateAdded: '04/08/2025',
   },
   {
@@ -581,7 +600,6 @@ export const spacesArray: Item[] = [
     dateAdded: '04/08/2025',
   },
 ]
-
 export const styleArray: Item[] = [
   
   {
@@ -647,6 +665,18 @@ export const instituteArray: Item[] = [
     name: 'thenodeinstitute',
     link: 'https://www.instagram.com/thenodeinstitute',
     image: 'thenodeinstitute.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'udkberlin.musik',
+    link: 'https://www.instagram.com/udkberlin.musik',
+    image: 'udkberlin.musik.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'udkberlin.musik',
+    link: 'https://www.instagram.com/udkberlin.musik',
+    image: 'udkberlin.musik.png',
     dateAdded: '04/08/2025',
   },
   {
