@@ -1,15 +1,15 @@
 import {
   TileProps,
   Item,
-  youtubeChannelArray,
+  // youtubeChannelArray,
   musicArray,
   // artistsArray,
-  therinaArray,
+  // therinaArray,
   barsArray,
   djsArray,
   ekpompesArray,
   followingArray,
-  hobbiesArray,
+  // hobbiesArray,
   workoutArray,
 } from './data/data'
 import { Montserrat } from 'next/font/google'
@@ -134,10 +134,10 @@ const Tile = ({ item }: TileProps) => {
   )
 }
 
-const youtubeChannels = {
-  name: 'Youtube Channels',
-  array: youtubeChannelArray,
-}
+// const youtubeChannels = {
+//   name: 'Youtube Channels',
+//   array: youtubeChannelArray,
+// }
 
 const music = {
   name: 'Music',
@@ -164,28 +164,28 @@ const following = {
   name: 'Δείξε μου το φίλο σου',
   array: followingArray,
 }
-const therina = {
-  name: 'θερινά σινεμά',
-  array: therinaArray,
-}
-const hobbies = {
-  name: 'hobbiz',
-  array: hobbiesArray,
-}
+// const therina = {
+//   name: 'θερινά σινεμά',
+//   array: therinaArray,
+// }
+// const hobbies = {
+//   name: 'hobbiz',
+//   array: hobbiesArray,
+// }
 const gym = {
   name: 'gym',
   array: workoutArray,
 }
 
 const sectionsArray = [
-  youtubeChannels,
+  // youtubeChannels,
   bars,
   djs,
   music,
   // ekpompes,
   // artists,
   // following,
-  therina,
+  // therina,
   gym,
-  hobbies,
+  // hobbies,
 ]
