@@ -413,15 +413,15 @@ export const eventsArray: Item[] = [
     dateAdded: '04/08/2025',
   },
   {
-    name: '',
-    link: 'https://www.instagram.com/',
-    image: '.png',
+    name: 'visitberlin',
+    link: 'https://www.instagram.com/visitberlin',
+    image: 'visitberlin.png',
     dateAdded: '04/08/2025',
   },
   {
-    name: '',
-    link: 'https://www.instagram.com/',
-    image: '.png',
+    name: 'mitvergnuegen',
+    link: 'https://www.instagram.com/mitvergnuegen',
+    image: 'mitvergnuegen.png',
     dateAdded: '04/08/2025',
   },
   {
@@ -447,9 +447,27 @@ export const musicArray: Item[] = [
     dateAdded: '04/08/2025',
   },
   {
-    name: '',
-    link: 'https://www.instagram.com/',
-    image: '.png',
+    name: 'mutek.jp',
+    link: 'https://www.instagram.com/mutek.jp',
+    image: 'mutek.jp.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'eufonia.io',
+    link: 'https://www.instagram.com/eufonia.io',
+    image: 'eufonia.io.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'feierabendcumbia',
+    link: 'https://www.instagram.com/feierabendcumbia',
+    image: 'feierabendcumbia.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'dinasummermusic',
+    link: 'https://www.instagram.com/dinasummermusic',
+    image: 'dinasummermusic.png',
     dateAdded: '04/08/2025',
   },
   {
@@ -669,15 +687,27 @@ export const spacesArray: Item[] = [
     dateAdded: '04/08/2025',
   },
   {
-    name: '',
-    link: 'https://www.instagram.com/',
-    image: '.png',
+    name: 'pankeculture',
+    link: 'https://www.instagram.com/pankeculture',
+    image: 'pankeculture.png',
     dateAdded: '04/08/2025',
   },
   {
-    name: '',
-    link: 'https://www.instagram.com/',
-    image: '.png',
+    name: 'derberlinersalon',
+    link: 'https://www.instagram.com/derberlinersalon',
+    image: 'derberlinersalon.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'mahalaya_yoga_berlin',
+    link: 'https://www.instagram.com/mahalaya_yoga_berlin',
+    image: 'mahalaya_yoga_berlin.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'wow___ouaou',
+    link: 'https://www.instagram.com/wow___ouaou',
+    image: 'wow___ouaou.png',
     dateAdded: '04/08/2025',
   },
   {
@@ -811,6 +841,33 @@ export const instituteArray: Item[] = [
     name: 'manifest.io.berlin',
     link: 'https://www.instagram.com/manifest.io.berlin',
     image: 'manifest.io.berlin.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'culterim_',
+    link: 'https://www.instagram.com/culterim_',
+    image: 'culterim_.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: '',
+    link: 'https://www.instagram.com/',
+    image: '.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: '',
+    link: 'https://www.instagram.com/',
+    image: '.png',
+    dateAdded: '04/08/2025',
+  },
+]
+export const streetArtArray: Item[] = [
+
+  {
+    name: 'cmyk_dots',
+    link: 'https://www.instagram.com/cmyk_dots',
+    image: 'cmyk_dots.png',
     dateAdded: '04/08/2025',
   },
   {

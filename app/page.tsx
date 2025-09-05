@@ -8,7 +8,6 @@ import {
   clubsArray,
   djsArray,
   eventsArray,
-  followingArray,
   musicArray,
   notSureWhatItIsArray,
   peopleToWatchArray,
@@ -177,10 +176,6 @@ const events = {
   name: 'events',
   array: eventsArray,
 }
-const following = {
-  name: 'following',
-  array: followingArray,
-}
 
 const notSureWhatItIs = {
   name: 'notSureWhatItIs',
@@ -218,7 +213,6 @@ const sectionsArray = [
   clubs,
   djs,
   events,
-  following,
   music,
   notSureWhatItIs,
   peopleToWatch,
