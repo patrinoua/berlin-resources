@@ -425,6 +425,18 @@ export const eventsArray: Item[] = [
     dateAdded: '04/08/2025',
   },
   {
+    name: 'rausgegangenberlin',
+    link: 'https://www.instagram.com/rausgegangenberlin',
+    image: 'rausgegangenberlin.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: '',
+    link: 'https://www.instagram.com/',
+    image: '.png',
+    dateAdded: '04/08/2025',
+  },
+  {
     name: '',
     link: 'https://www.instagram.com/',
     image: '.png',
