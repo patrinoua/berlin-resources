@@ -1,16 +1,21 @@
 import {
   TileProps,
   Item,
-  // youtubeChannelArray,
-  musicArray,
-  // artistsArray,
-  // therinaArray,
+  artisticArray,
+  artistsArray,
   barsArray,
+  cafesArray,
+  clubsArray,
   djsArray,
-  ekpompesArray,
+  eventsArray,
   followingArray,
-  // hobbiesArray,
-  workoutArray,
+  musicArray,
+  notSureWhatItIsArray,
+  peopleToWatchArray,
+  spacesArray,
+  styleArray,
+  thingsGoingOnArray,
+  instituteArray,
 } from './data/data'
 import { Montserrat } from 'next/font/google'
 
@@ -48,11 +53,6 @@ export default function Home() {
             </div>
           )
         })}
-        {/* <div className='w-full bg-black p-8'> */}
-        <div className="flex flex-col items-center p-4 text-gray-500">
-          * Things that are not included (but hey, change my mind!) are{' '}
-          <b>arte, nts</b>
-        </div>
       </main>
       <footer className='bg-black bg-[url("/colorimage.png")] bg-cover bg-[0%_67%] p-8 py-6 text-center text-sm text-gray-200'>
         <div className="flex justify-center">
@@ -117,10 +117,10 @@ const Tile = ({ item }: TileProps) => {
       <div className="center relative m-1 flex flex-col items-center brightness-80 transition-transform duration-300 hover:scale-104 hover:brightness-92">
         <img
           src={(item.image.length && item.image) || 'art_default.png'}
-          className="h-40 w-40 bg-[#150b0b]/30 object-cover p-1 shadow-lg brightness-90 md:m-1 md:h-60 md:w-60 md:p-1"
+          className="h-20 w-20 bg-[#150b0b]/30 object-cover p-1 shadow-lg brightness-90 md:m-1 md:h-40 md:w-40 md:p-1"
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/50 p-2 text-center transition-transform duration-300 hover:scale-105">
-          <h1 className="b-4 max-w-[200px] text-center text-xl font-bold tracking-wide text-gray-100 md:text-2xl">
+          <h1 className="b-4 max-w-[200px] text-center text-xl font-bold tracking-wide text-gray-100 md:text-sm">
             {item.name}
           </h1>
           {item.comment && (
@@ -156,36 +156,74 @@ const djs = {
   name: 'Who?',
   array: djsArray,
 }
-const ekpompes = {
-  name: 'Shows',
-  array: ekpompesArray,
+const artistic = {
+  name: 'artistic',
+  array: artisticArray,
+}
+const artists = {
+  name: 'artists',
+  array: artistsArray,
+}
+
+const cafes = {
+  name: 'cafes',
+  array: cafesArray,
+}
+const clubs = {
+  name: 'clubs',
+  array: clubsArray,
+}
+const events = {
+  name: 'events',
+  array: eventsArray,
 }
 const following = {
-  name: 'Δείξε μου το φίλο σου',
+  name: 'following',
   array: followingArray,
 }
-// const therina = {
-//   name: 'θερινά σινεμά',
-//   array: therinaArray,
-// }
-// const hobbies = {
-//   name: 'hobbiz',
-//   array: hobbiesArray,
-// }
-const gym = {
-  name: 'gym',
-  array: workoutArray,
+
+const notSureWhatItIs = {
+  name: 'notSureWhatItIs',
+  array: notSureWhatItIsArray,
+}
+
+const peopleToWatch = {
+  name: 'peopleToWatch',
+  array: peopleToWatchArray,
+}
+
+const spaces = {
+  name: 'spaces',
+  array: spacesArray,
+}
+
+const style = {
+  name: 'style',
+  array: styleArray,
+}
+const thingsGoingOn = {
+  name: 'thingsGoingOn',
+  array: thingsGoingOnArray,
+}
+const institute = {
+  name: 'institute',
+  array: instituteArray,
 }
 
 const sectionsArray = [
-  // youtubeChannels,
+  artistic,
+  artists,
   bars,
+  cafes,
+  clubs,
   djs,
+  events,
+  following,
   music,
-  // ekpompes,
-  // artists,
-  // following,
-  // therina,
-  gym,
-  // hobbies,
+  notSureWhatItIs,
+  peopleToWatch,
+  spaces,
+  style,
+  thingsGoingOn,
+  institute,
 ]
