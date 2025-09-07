@@ -41,6 +41,18 @@ export const artisticArray: Item[] = [
     dateAdded: '04/08/2025',
   },
   {
+    name: 'houseofqra',
+    link: 'https://www.instagram.com/houseofqra',
+    image: 'houseofqra.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'spatialmedialab',
+    link: 'https://www.instagram.com/spatialmedialab',
+    image: 'spatialmedialab.png',
+    dateAdded: '04/08/2025',
+  },
+  {
     name: '',
     link: 'https://www.instagram.com/',
     image: '.png',
@@ -48,6 +60,12 @@ export const artisticArray: Item[] = [
   },
 ]
 export const artistsArray: Item[] = [
+  {
+    name: '',
+    link: 'https://www.instagram.com/',
+    image: '.png',
+    dateAdded: '04/08/2025',
+  },
   {
     name: 'Pedro Maia',
     link: 'https://www.instagram.com/maiapedro/',
@@ -149,13 +167,19 @@ export const artistsArray: Item[] = [
     dateAdded: '04/08/2025',
   },
   {
+    name: 'boris.acket',
+    link: 'https://www.instagram.com/boris.acket',
+    image: 'boris.acket.png',
+    dateAdded: '04/08/2025',
+  },
+]
+export const barsArray: Item[] = [
+  {
     name: '',
     link: 'https://www.instagram.com/',
     image: '.png',
     dateAdded: '04/08/2025',
   },
-]
-export const barsArray: Item[] = [
   {
     name: 'du beast',
     link: 'https://www.instagram.com/dibeast_berlin',
@@ -193,16 +217,16 @@ export const barsArray: Item[] = [
     dateAdded: '04/08/2025',
   },
   {
-    name: '',
-    link: 'https://www.instagram.com/',
-    image: '.png',
+    name: 'laksmibarberlin',
+    link: 'https://www.instagram.com/laksmibarberlin',
+    image: 'laksmibarberlin.png',
     dateAdded: '04/08/2025',
   },
   {
-    name: '',
-    link: 'https://www.instagram.com/',
-    image: '.png',
-    dateAdded: '04/08/2025',
+    name: 'dasgiftberlin',
+    link: 'https://www.instagram.com/dasgiftberlin',
+    image: 'dasgiftberlin.png',
+    dateAdded: '07/09/2025',
   },
 ]
 export const cafesArray: Item[] = [
@@ -222,6 +246,26 @@ export const cafesArray: Item[] = [
     name: '',
     link: 'https://www.instagram.com/',
     image: '.png',
+    dateAdded: '04/08/2025',
+  },
+]
+export const cinemaArray: Item[] = [
+  {
+    name: '',
+    link: 'https://www.instagram.com/',
+    image: '.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'babylonberlin',
+    link: 'https://www.instagram.com/babylonberlin',
+    image: 'babylonberlin.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'kinoloop',
+    link: 'https://www.instagram.com/kinoloop',
+    image: 'kinoloop.png',
     dateAdded: '04/08/2025',
   },
 ]
@@ -275,6 +319,20 @@ export const clubsArray: Item[] = [
     dateAdded: '04/08/2025',
   },
   {
+    name: 'ohmberlin',
+    link: 'https://www.instagram.com/ohmberlin',
+    image: 'ohmberlin.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: '',
+    link: 'https://www.instagram.com/',
+    image: '.png',
+    dateAdded: '04/08/2025',
+  },
+]
+export const galleriesArray: Item[] = [
+  {
     name: '',
     link: 'https://www.instagram.com/',
     image: '.png',
@@ -284,6 +342,18 @@ export const clubsArray: Item[] = [
     name: '',
     link: 'https://www.instagram.com/',
     image: '.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'galeriaazur',
+    link: 'https://www.instagram.com/galeriaazur',
+    image: 'galeriaazur.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'delphiangallery',
+    link: 'https://www.instagram.com/delphiangallery',
+    image: 'delphiangallery.png',
     dateAdded: '04/08/2025',
   },
 ]
@@ -328,6 +398,24 @@ export const ekpompesArray: Item[] = [
   },
 ]
 export const eventsArray: Item[] = [
+  {
+    name: '',
+    link: 'https://www.instagram.com/',
+    image: '.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: '1781collective',
+    link: 'https://www.instagram.com/1781collective',
+    image: '1781collective.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'galleryweekendberlin',
+    link: 'https://www.instagram.com/galleryweekendberlin',
+    image: 'galleryweekendberlin.png',
+    dateAdded: '04/08/2025',
+  },
   {
     name: '48stundennk',
     link: 'https://www.instagram.com/48stundennk/',
@@ -431,27 +519,147 @@ export const eventsArray: Item[] = [
     dateAdded: '04/08/2025',
   },
   {
-    name: '',
-    link: 'https://www.instagram.com/',
-    image: '.png',
+    name: 'fomoberlin247',
+    link: 'https://www.instagram.com/fomoberlin247',
+    image: 'fomoberlin247.png',
     dateAdded: '04/08/2025',
   },
   {
-    name: '',
-    link: 'https://www.instagram.com/',
-    image: '.png',
+    name: 'karneval.berlin',
+    link: 'https://www.instagram.com/karneval.berlin',
+    image: 'karneval.berlin.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'mae.community',
+    link: 'https://www.instagram.com/mae.community',
+    image: 'mae.community.png',
     dateAdded: '04/08/2025',
   },
 ]
-export const followingArray: Item[] = [
+export const foodArray: Item[] = [
   {
-    name: 'panfar mixcloud favorites',
-    link: 'https://www.mixcloud.com/pan-far/favorites/',
-    image: 'panfar.png',
+    name: 'berlinfoodguide',
+    link: 'https://www.mixcloud.com/berlinfoodguide',
+    image: 'berlinfoodguide.png',
+    dateAdded: '04/08/2025',
+  },
+]
+export const festivalArray: Item[] = [
+  {
+    name: '',
+    link: 'https://www.mixcloud.com/',
+    image: '.png',
+    dateAdded: '04/08/2025',
+  },
+
+  {
+    name: '',
+    link: 'https://www.mixcloud.com/',
+    image: '.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'zugvoegelfestival',
+    link: 'https://www.mixcloud.com/zugvoegelfestival',
+    image: 'zugvoegelfestival.png',
+    dateAdded: '04/08/2025',
+  },
+]
+export const instituteArray: Item[] = [
+  {
+    name: '',
+    link: 'https://www.instagram.com/',
+    image: '.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'auswaerts_solidarity_group',
+    link: 'https://www.instagram.com/auswaerts_solidarity_group',
+    image: 'auswaerts_solidarity_group.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'thenodeinstitute',
+    link: 'https://www.instagram.com/thenodeinstitute',
+    image: 'thenodeinstitute.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'udkberlin.musik',
+    link: 'https://www.instagram.com/udkberlin.musik',
+    image: 'udkberlin.musik.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'udkberlin.musik',
+    link: 'https://www.instagram.com/udkberlin.musik',
+    image: 'udkberlin.musik.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'berliner_zeitung',
+    link: 'https://www.instagram.com/berliner_zeitung',
+    image: 'berliner_zeitung.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'bewegungsfreiheit_berlin',
+    link: 'https://www.instagram.com/bewegungsfreiheit_berlin',
+    image: 'bewegungsfreiheit_berlin.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'schneidersladen',
+    link: 'https://www.instagram.com/schneidersladen',
+    image: 'schneidersladen.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'tacocat.bike',
+    link: 'https://www.instagram.com/tacocat.bike',
+    image: 'tacocat.bike.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'baam.berlin',
+    link: 'https://www.instagram.com/baam.berlin',
+    image: 'baam.berlin.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'manifest.io.berlin',
+    link: 'https://www.instagram.com/manifest.io.berlin',
+    image: 'manifest.io.berlin.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'culterim_',
+    link: 'https://www.instagram.com/culterim_',
+    image: 'culterim_.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'oyounberlin',
+    link: 'https://www.instagram.com/oyounberlin',
+    image: 'oyounberlin.png',
     dateAdded: '04/08/2025',
   },
 ]
 export const musicArray: Item[] = [
+  {
+    name: '',
+    link: 'https://www.mixcloud.com/',
+    image: '.png',
+    dateAdded: '04/08/2025',
+  },
+
+  {
+    name: 'konzerthausberlin',
+    link: 'https://www.instagram.com/konzerthausberlin',
+    image: 'konzerthausberlin.png',
+    dateAdded: '04/08/2025',
+  },
   {
     name: 'Christopher Schwarzwalder',
     link: 'https://soundcloud.com/schwrzwldr',
@@ -483,13 +691,38 @@ export const musicArray: Item[] = [
     dateAdded: '04/08/2025',
   },
   {
+    name: 'mechatronicamusic',
+    link: 'https://www.instagram.com/mechatronicamusic',
+    image: 'mechatronicamusic.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'localsuicide',
+    link: 'https://www.instagram.com/localsuicide',
+    image: 'localsuicide.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'capsule.berlin',
+    link: 'https://www.instagram.com/capsule.berlin',
+    image: 'capsule.berlin.png',
+    dateAdded: '04/08/2025',
+    comment: 'probably dead, might have good resources',
+  },
+]
+export const notSureWhatItIsArray: Item[] = [
+  {
     name: '',
     link: 'https://www.instagram.com/',
     image: '.png',
     dateAdded: '04/08/2025',
   },
-]
-export const notSureWhatItIsArray: Item[] = [
+  {
+    name: '',
+    link: 'https://www.instagram.com/',
+    image: '.png',
+    dateAdded: '04/08/2025',
+  },
   {
     name: 'cank.berlin',
     link: 'https://www.instagram.com/cank.berlin',
@@ -563,6 +796,14 @@ export const notSureWhatItIsArray: Item[] = [
     dateAdded: '04/08/2025',
   },
   {
+    name: 'institute.of.relaxation',
+    link: 'https://www.instagram.com/institute.of.relaxation',
+    image: 'institute.of.relaxation.png',
+    dateAdded: '04/08/2025',
+  },
+]
+export const newsArray: Item[] = [
+  {
     name: '',
     link: 'https://www.instagram.com/',
     image: '.png',
@@ -572,6 +813,18 @@ export const notSureWhatItIsArray: Item[] = [
     name: '',
     link: 'https://www.instagram.com/',
     image: '.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'queerspiegel',
+    link: 'https://www.instagram.com/queerspiegel',
+    image: 'queerspiegel.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'tagesschau',
+    link: 'https://www.instagram.com/tagesschau',
+    image: 'tagesschau.png',
     dateAdded: '04/08/2025',
   },
 ]
@@ -614,6 +867,48 @@ export const peopleToWatchArray: Item[] = [
   },
 ]
 export const spacesArray: Item[] = [
+  {
+    name: '',
+    link: 'https://www.instagram.com/',
+    image: '.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: '',
+    link: 'https://www.instagram.com/',
+    image: '.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'sophiensaele',
+    link: 'https://www.instagram.com/sophiensaele',
+    image: 'sophiensaele.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'artistania_berlin',
+    link: 'https://www.instagram.com/artistania_berlin',
+    image: 'artistania_berlin.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'radialsystem_berlin',
+    link: 'https://www.instagram.com/radialsystem_berlin',
+    image: 'radialsystem_berlin.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'kunsthochschuleberlin',
+    link: 'https://www.instagram.com/kunsthochschuleberlin',
+    image: 'kunsthochschuleberlin.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'dock_11_',
+    link: 'https://www.instagram.com/dock_11_',
+    image: 'dock_11_.png',
+    dateAdded: '04/08/2025',
+  },
   {
     name: 'musikbrauereiberlin',
     link: 'https://www.instagram.com/musikbrauereiberlin',
@@ -723,9 +1018,23 @@ export const spacesArray: Item[] = [
     dateAdded: '04/08/2025',
   },
   {
-    name: '',
-    link: 'https://www.instagram.com/',
-    image: '.png',
+    name: 'ballhaus_naunynstrasse',
+    link: 'https://www.instagram.com/ballhaus_naunynstrasse',
+    image: 'ballhaus_naunynstrasse.png',
+    dateAdded: '04/08/2025',
+  },
+  {
+    name: 'ballhausprinzenallee',
+    link: 'https://www.instagram.com/ballhausprinzenallee',
+    image: 'ballhausprinzenallee.png',
+    dateAdded: '04/08/2025',
+  },
+]
+export const streetArtArray: Item[] = [
+  {
+    name: 'cmyk_dots',
+    link: 'https://www.instagram.com/cmyk_dots',
+    image: 'cmyk_dots.png',
     dateAdded: '04/08/2025',
   },
   {
@@ -791,95 +1100,6 @@ export const thingsGoingOnArray: Item[] = [
     name: 'thatsmyberlin',
     link: 'https://www.instagram.com/thatsmyberlin',
     image: 'thatsmyberlin.png',
-    dateAdded: '04/08/2025',
-  },
-  {
-    name: '',
-    link: 'https://www.instagram.com/',
-    image: '.png',
-    dateAdded: '04/08/2025',
-  },
-]
-export const instituteArray: Item[] = [
-  {
-    name: 'thenodeinstitute',
-    link: 'https://www.instagram.com/thenodeinstitute',
-    image: 'thenodeinstitute.png',
-    dateAdded: '04/08/2025',
-  },
-  {
-    name: 'udkberlin.musik',
-    link: 'https://www.instagram.com/udkberlin.musik',
-    image: 'udkberlin.musik.png',
-    dateAdded: '04/08/2025',
-  },
-  {
-    name: 'udkberlin.musik',
-    link: 'https://www.instagram.com/udkberlin.musik',
-    image: 'udkberlin.musik.png',
-    dateAdded: '04/08/2025',
-  },
-  {
-    name: 'berliner_zeitung',
-    link: 'https://www.instagram.com/berliner_zeitung',
-    image: 'berliner_zeitung.png',
-    dateAdded: '04/08/2025',
-  },
-  {
-    name: 'bewegungsfreiheit_berlin',
-    link: 'https://www.instagram.com/bewegungsfreiheit_berlin',
-    image: 'bewegungsfreiheit_berlin.png',
-    dateAdded: '04/08/2025',
-  },
-  {
-    name: 'schneidersladen',
-    link: 'https://www.instagram.com/schneidersladen',
-    image: 'schneidersladen.png',
-    dateAdded: '04/08/2025',
-  },
-  {
-    name: 'tacocat.bike',
-    link: 'https://www.instagram.com/tacocat.bike',
-    image: 'tacocat.bike.png',
-    dateAdded: '04/08/2025',
-  },
-  {
-    name: 'baam.berlin',
-    link: 'https://www.instagram.com/baam.berlin',
-    image: 'baam.berlin.png',
-    dateAdded: '04/08/2025',
-  },
-  {
-    name: 'manifest.io.berlin',
-    link: 'https://www.instagram.com/manifest.io.berlin',
-    image: 'manifest.io.berlin.png',
-    dateAdded: '04/08/2025',
-  },
-  {
-    name: 'culterim_',
-    link: 'https://www.instagram.com/culterim_',
-    image: 'culterim_.png',
-    dateAdded: '04/08/2025',
-  },
-  {
-    name: '',
-    link: 'https://www.instagram.com/',
-    image: '.png',
-    dateAdded: '04/08/2025',
-  },
-  {
-    name: '',
-    link: 'https://www.instagram.com/',
-    image: '.png',
-    dateAdded: '04/08/2025',
-  },
-]
-export const streetArtArray: Item[] = [
-
-  {
-    name: 'cmyk_dots',
-    link: 'https://www.instagram.com/cmyk_dots',
-    image: 'cmyk_dots.png',
     dateAdded: '04/08/2025',
   },
   {

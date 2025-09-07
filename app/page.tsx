@@ -5,10 +5,14 @@ import {
   artistsArray,
   barsArray,
   cafesArray,
+  cinemaArray,
   clubsArray,
   djsArray,
   eventsArray,
+  foodArray,
+  galleriesArray,
   musicArray,
+  newsArray,
   notSureWhatItIsArray,
   peopleToWatchArray,
   spacesArray,
@@ -111,26 +115,29 @@ const Section = ({ section }: SectionProps) => {
 }
 
 const Tile = ({ item }: TileProps) => {
-  return (
-    <a href={item.link} target="_blank" rel="noopener noreferrer">
-      <div className="center relative m-1 flex flex-col items-center brightness-80 transition-transform duration-300 hover:scale-104 hover:brightness-92">
-        <img
-          src={(item.image.length && item.image) || 'art_default.png'}
-          className="h-20 w-20 bg-[#150b0b]/30 object-cover p-1 shadow-lg brightness-90 md:m-1 md:h-40 md:w-40 md:p-1"
-        />
-        <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/50 p-2 text-center transition-transform duration-300 hover:scale-105">
-          <h1 className="b-4 max-w-[200px] text-center text-xl font-bold tracking-wide text-gray-100 md:text-sm">
-            {item.name}
-          </h1>
-          {item.comment && (
-            <p className="max-w-[200px] text-center text-gray-200">
-              {item.comment}
-            </p>
-          )}
+  console.log(item.name, item.name.length > 1)
+  if (item.name.length > 1) {
+    return (
+      <a href={item.link} target="_blank" rel="noopener noreferrer">
+        <div className="center relative m-1 flex flex-col items-center brightness-80 transition-transform duration-300 hover:scale-104 hover:brightness-92">
+          <img
+            src={(item.image.length && item.image) || 'art_default.png'}
+            className="h-20 w-20 bg-[#150b0b]/30 object-cover p-1 shadow-lg brightness-90 md:m-1 md:h-40 md:w-40 md:p-1"
+          />
+          <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/50 p-2 text-center transition-transform duration-300 hover:scale-105">
+            <h1 className="b-4 max-w-[200px] text-center text-xl font-bold tracking-wide text-gray-100 md:text-sm">
+              {item.name}
+            </h1>
+            {item.comment && (
+              <p className="max-w-[200px] text-center text-gray-200">
+                {item.comment}
+              </p>
+            )}
+          </div>
         </div>
-      </div>
-    </a>
-  )
+      </a>
+    )
+  } else return null
 }
 
 // const youtubeChannels = {
@@ -168,6 +175,10 @@ const cafes = {
   name: 'cafes',
   array: cafesArray,
 }
+const cinema = {
+  name: 'cinema',
+  array: cinemaArray,
+}
 const clubs = {
   name: 'clubs',
   array: clubsArray,
@@ -175,6 +186,19 @@ const clubs = {
 const events = {
   name: 'events',
   array: eventsArray,
+}
+const food = {
+  name: 'food',
+  array: foodArray,
+}
+const galleries = {
+  name: 'galleries',
+  array: galleriesArray,
+}
+
+const news = {
+  name: 'news',
+  array: newsArray,
 }
 
 const notSureWhatItIs = {
@@ -210,10 +234,14 @@ const sectionsArray = [
   artists,
   bars,
   cafes,
+  cinema,
   clubs,
   djs,
   events,
+  food,
+  galleries,
   music,
+  news,
   notSureWhatItIs,
   peopleToWatch,
   spaces,
