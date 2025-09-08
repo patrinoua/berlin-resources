@@ -16,7 +16,12 @@ export type TileProps = {
 // },
 
 export const artisticArray: Item[] = [
- 
+  {
+    name: '',
+    link: 'https://www.instagram.com/',
+    image: '.png',
+    dateAdded: '04/09/2025',
+  },
   {
     name: 'k_a_3_2',
     link: 'https://www.instagram.com/k_a_3_2',
@@ -48,9 +53,23 @@ export const artisticArray: Item[] = [
     dateAdded: '04/09/2025',
   },
   {
+    name: 'daad_artists',
+    link: 'https://www.instagram.com/daad_artists',
+    image: 'daad_artists.png',
+    dateAdded: '04/09/2025',
+  },
+]
+export const bookStoresArray: Item[] = [
+  {
     name: '',
     link: 'https://www.instagram.com/',
     image: '.png',
+    dateAdded: '04/09/2025',
+  },
+  {
+    name: 'curiousfoxbooks',
+    link: 'https://www.instagram.com/curiousfoxbooks',
+    image: 'curiousfoxbooks.png',
     dateAdded: '04/09/2025',
   },
 ]
@@ -59,6 +78,24 @@ export const artistsArray: Item[] = [
     name: '',
     link: 'https://www.instagram.com/',
     image: '.png',
+    dateAdded: '04/09/2025',
+  },
+  {
+    name: 'svenmarquardt',
+    link: 'https://www.instagram.com/svenmarquardt',
+    image: 'svenmarquardt.png',
+    dateAdded: '04/09/2025',
+  },
+  {
+    name: 'bona_berlin',
+    link: 'https://www.instagram.com/bona_berlin',
+    image: 'bona_berlin.png',
+    dateAdded: '04/09/2025',
+  },
+  {
+    name: 'studioolafureliasson',
+    link: 'https://www.instagram.com/studioolafureliasson',
+    image: 'studioolafureliasson.png',
     dateAdded: '04/09/2025',
   },
   {
@@ -73,28 +110,24 @@ export const artistsArray: Item[] = [
     image: 'stratos.png',
     dateAdded: '04/09/2025',
   },
-
   {
     name: 'Xiaoer',
     link: 'https://www.instagram.com/liuxiaoer.art/',
     image: 'xiaoer.png',
     dateAdded: '04/09/2025',
   },
-
   {
     name: 'miss Stray',
     link: 'https://www.instagram.com/miss_stray/',
     image: 'miss_stray.png',
     dateAdded: '04/09/2025',
   },
-
   {
     name: 'wild rising artichoke',
     link: 'https://www.instagram.com/wild_rising_artichoke/',
     image: ' .png',
     dateAdded: '04/09/2025',
   },
-
   {
     name: 'lefteris k',
     link: 'https://www.instagram.com/_lefterisko_ ',
@@ -320,41 +353,9 @@ export const clubsArray: Item[] = [
     dateAdded: '04/09/2025',
   },
   {
-    name: '',
-    link: 'https://www.instagram.com/',
-    image: '.png',
-    dateAdded: '04/09/2025',
-  },
-]
-export const galleriesArray: Item[] = [
-  {
-    name: '',
-    link: 'https://www.instagram.com/',
-    image: '.png',
-    dateAdded: '04/09/2025',
-  },
-  {
-    name: '',
-    link: 'https://www.instagram.com/',
-    image: '.png',
-    dateAdded: '04/09/2025',
-  },
-  {
-    name: 'kunst_zeit_raum',
-    link: 'https://www.instagram.com/kunst_zeit_raum',
-    image: 'kunst_zeit_raum.png',
-    dateAdded: '04/09/2025',
-  },
-  {
-    name: 'galeriaazur',
-    link: 'https://www.instagram.com/galeriaazur',
-    image: 'galeriaazur.png',
-    dateAdded: '04/09/2025',
-  },
-  {
-    name: 'delphiangallery',
-    link: 'https://www.instagram.com/delphiangallery',
-    image: 'delphiangallery.png',
+    name: 'void_club',
+    link: 'https://www.instagram.com/void_club',
+    image: 'void_club.png',
     dateAdded: '04/09/2025',
   },
 ]
@@ -567,6 +568,38 @@ export const festivalArray: Item[] = [
     dateAdded: '04/09/2025',
   },
 ]
+export const galleriesArray: Item[] = [
+  {
+    name: '',
+    link: 'https://www.instagram.com/',
+    image: '.png',
+    dateAdded: '04/09/2025',
+  },
+  {
+    name: 'atm_gallery_berlin',
+    link: 'https://www.instagram.com/atm_gallery_berlin',
+    image: 'atm_gallery_berlin.png',
+    dateAdded: '04/09/2025',
+  },
+  {
+    name: 'kunst_zeit_raum',
+    link: 'https://www.instagram.com/kunst_zeit_raum',
+    image: 'kunst_zeit_raum.png',
+    dateAdded: '04/09/2025',
+  },
+  {
+    name: 'galeriaazur',
+    link: 'https://www.instagram.com/galeriaazur',
+    image: 'galeriaazur.png',
+    dateAdded: '04/09/2025',
+  },
+  {
+    name: 'delphiangallery',
+    link: 'https://www.instagram.com/delphiangallery',
+    image: 'delphiangallery.png',
+    dateAdded: '04/09/2025',
+  },
+]
 export const instituteArray: Item[] = [
   {
     name: '',
@@ -719,9 +752,9 @@ export const notSureWhatItIsArray: Item[] = [
     dateAdded: '04/09/2025',
   },
   {
-    name: '',
-    link: 'https://www.instagram.com/',
-    image: '.png',
+    name: 'sweetandsweatjurtensaunarei',
+    link: 'https://www.instagram.com/sweetandsweatjurtensaunarei',
+    image: 'sweetandsweatjurtensaunarei.png',
     dateAdded: '04/09/2025',
   },
   {
@@ -849,9 +882,9 @@ export const peopleToWatchArray: Item[] = [
     dateAdded: '04/09/2025',
   },
   {
-    name: '',
-    link: 'https://www.instagram.com/',
-    image: '.png',
+    name: 'amplifyberlin',
+    link: 'https://www.instagram.com/amplifyberlin',
+    image: 'amplifyberlin.png',
     dateAdded: '04/09/2025',
   },
   {
@@ -875,9 +908,9 @@ export const spacesArray: Item[] = [
     dateAdded: '04/09/2025',
   },
   {
-    name: '',
-    link: 'https://www.instagram.com/',
-    image: '.png',
+    name: 'holzmarkt_25',
+    link: 'https://www.instagram.com/holzmarkt_25',
+    image: 'holzmarkt_25.png',
     dateAdded: '04/09/2025',
   },
   {
@@ -1077,7 +1110,27 @@ export const styleArray: Item[] = [
     dateAdded: '04/09/2025',
   },
 ]
+export const theatreArray: Item[] = [
+  {
+    name: '',
+    link: 'https://www.instagram.com/',
+    image: '.png',
+    dateAdded: '04/09/2025',
+  },
+  {
+    name: 'chamtheater',
+    link: 'https://www.instagram.com/chamtheater',
+    image: 'chamtheater.png',
+    dateAdded: '04/09/2025',
+  },
+]
 export const thingsGoingOnArray: Item[] = [
+  {
+    name: '',
+    link: 'https://www.instagram.com/',
+    image: '.png',
+    dateAdded: '04/09/2025',
+  },
   {
     name: 'flaemingo_farm',
     link: 'https://soundcloud.com/flaemingo_farm',
@@ -1096,7 +1149,6 @@ export const thingsGoingOnArray: Item[] = [
     image: 'berlin.png',
     dateAdded: '04/09/2025',
   },
-
   {
     name: 'thatsmyberlin',
     link: 'https://www.instagram.com/thatsmyberlin',
@@ -1104,9 +1156,9 @@ export const thingsGoingOnArray: Item[] = [
     dateAdded: '04/09/2025',
   },
   {
-    name: '',
-    link: 'https://www.instagram.com/',
-    image: '.png',
+    name: 'whereto_inberlin',
+    link: 'https://www.instagram.com/whereto_inberlin',
+    image: 'whereto_inberlin.png',
     dateAdded: '04/09/2025',
   },
 ]

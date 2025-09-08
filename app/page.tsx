@@ -4,6 +4,7 @@ import {
   artisticArray,
   artistsArray,
   barsArray,
+  bookStoresArray,
   cafesArray,
   cinemaArray,
   clubsArray,
@@ -17,6 +18,7 @@ import {
   peopleToWatchArray,
   spacesArray,
   styleArray,
+  theatreArray,
   thingsGoingOnArray,
   instituteArray,
 } from './data/data'
@@ -140,28 +142,6 @@ const Tile = ({ item }: TileProps) => {
   } else return null
 }
 
-// const youtubeChannels = {
-//   name: 'Youtube Channels',
-//   array: youtubeChannelArray,
-// }
-
-const music = {
-  name: 'Music',
-  array: musicArray,
-}
-
-// const artists = {
-//   name: 'Artists',
-//   array: artistsArray,
-// }
-const bars = {
-  name: 'Where?',
-  array: barsArray,
-}
-const djs = {
-  name: 'Who?',
-  array: djsArray,
-}
 const artistic = {
   name: 'artistic',
   array: artisticArray,
@@ -170,7 +150,14 @@ const artists = {
   name: 'artists',
   array: artistsArray,
 }
-
+const bars = {
+  name: 'Where?',
+  array: barsArray,
+}
+const bookStores = {
+  name: 'bookStores',
+  array: bookStoresArray,
+}
 const cafes = {
   name: 'cafes',
   array: cafesArray,
@@ -182,6 +169,10 @@ const cinema = {
 const clubs = {
   name: 'clubs',
   array: clubsArray,
+}
+const djs = {
+  name: 'Who?',
+  array: djsArray,
 }
 const events = {
   name: 'events',
@@ -195,30 +186,33 @@ const galleries = {
   name: 'galleries',
   array: galleriesArray,
 }
-
+const music = {
+  name: 'Music',
+  array: musicArray,
+}
 const news = {
   name: 'news',
   array: newsArray,
 }
-
 const notSureWhatItIs = {
   name: 'notSureWhatItIs',
   array: notSureWhatItIsArray,
 }
-
 const peopleToWatch = {
   name: 'peopleToWatch',
   array: peopleToWatchArray,
 }
-
 const spaces = {
   name: 'spaces',
   array: spacesArray,
 }
-
 const style = {
   name: 'style',
   array: styleArray,
+}
+const theatre = {
+  name: 'theatre',
+  array: theatreArray,
 }
 const thingsGoingOn = {
   name: 'thingsGoingOn',
@@ -233,6 +227,7 @@ const sectionsArray = [
   artistic,
   artists,
   bars,
+  bookStores,
   cafes,
   cinema,
   clubs,
@@ -246,6 +241,7 @@ const sectionsArray = [
   peopleToWatch,
   spaces,
   style,
+  theatre,
   thingsGoingOn,
   institute,
 ]
