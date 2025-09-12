@@ -123,30 +123,24 @@ const Tile = ({ item }: TileProps) => {
 
   if (item.name.length > 1) {
     return (
-      <div className="flex flex-col">
-        <h1 className="b-4 max-w-[200px] text-center text-xl font-bold tracking-wide text-gray-100 md:text-sm">
-          {item.name}
-        </h1>
-
-        <a href={item.link} target="_blank" rel="noopener noreferrer">
-          <div className="center relative m-1 flex flex-col items-center brightness-80 transition-transform duration-300 hover:scale-104 hover:brightness-92">
-            <img
-              src={(item.image.length && item.image) || 'art_default.png'}
-              className="h-20 w-20 bg-[#150b0b]/30 object-cover p-1 shadow-lg brightness-90 md:m-1 md:h-40 md:w-40 md:p-1"
-            />
-            <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/50 p-2 text-center transition-transform duration-300 hover:scale-105">
-              <h1 className="b-4 max-w-[200px] text-center text-xl font-bold tracking-wide text-gray-100 md:text-sm">
-                {item.name}
-              </h1>
-              {item.comment && (
-                <p className="max-w-[200px] text-center text-gray-200">
-                  {item.comment}
-                </p>
-              )}
-            </div>
+      <a href={item.link} target="_blank" rel="noopener noreferrer">
+        <div className="center relative m-1 flex flex-col items-center brightness-80 transition-transform duration-300 hover:scale-104 hover:brightness-110">
+          <img
+            src={(item.image.length && item.image) || 'art_default.png'}
+            className="h-20 w-20 bg-[#150b0b]/30 object-cover p-1 shadow-lg brightness-100 md:m-1 md:h-40 md:w-40 md:p-1"
+          />
+          <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/50 p-2 text-center transition-transform duration-300 hover:scale-105">
+            <h1 className="b-4 max-w-[200px] text-center text-xl font-bold tracking-wide text-gray-100 md:text-sm">
+              {item.name}
+            </h1>
+            {item.comment && (
+              <p className="max-w-[200px] text-center text-gray-200">
+                {item.comment}
+              </p>
+            )}
           </div>
-        </a>
-      </div>
+        </div>
+      </a>
     )
   } else return null
 }
