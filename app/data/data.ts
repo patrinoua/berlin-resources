@@ -4,6 +4,7 @@ export type Item = {
   image: string
   dateAdded: string
   comment?: string
+  website?: string
 }
 export type TileProps = {
   item: Item
@@ -399,6 +400,13 @@ export const eventsArray: Item[] = [
     link: 'https://www.instagram.com/',
     image: '.png',
     dateAdded: '04/09/2025',
+  },
+  {
+    name: 'lost art festival',
+    link: 'https://www.instagram.com/lostartfestival',
+    image: 'lostartfestival.png',
+    dateAdded: '04/09/2025',
+    website: 'https://www.lostartfestival.com/',
   },
   {
     name: 'Berlin Art Week',
